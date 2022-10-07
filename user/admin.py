@@ -9,7 +9,7 @@ admin.site.site_title = "Administration"
 # Register your models here.
 @admin.register(Member)
 class MemberAdmin(admin.ModelAdmin):
-    list_display = ['id', 'username', 'password', 'email']
+    list_display = ['id', 'username', 'password', 'email', 'identity']
     list_filter = ['identity']
     search_fields = ['id', 'username', 'email']
 
