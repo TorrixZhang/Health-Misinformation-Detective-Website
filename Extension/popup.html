@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="logo-container">
+    <a href="http://localhost:3000/" target="_blank">
+      <img src="pics/logo.png" alt="The logo of this project" class="logo-image" title="Jump to Homepage of MD" />
+    </a>
+  </div>
+
+  <div id="check">
+    <div class="switch-container">
+      <p>
+        Paragraph highlighted in
+        <span style="background-color: yellow; padding: 0 3px">yellow</span><br />
+        indicates this view is CONTROVERSIAL,<br />please treat with caution.
+      </p>
+      <a href="http://localhost:3000/article/" target="_blank">
+        <img src="pics/question.png" alt="" title="Jump to the Q&A function" class="container-image" />
+      </a>
+    </div>
+    <div class="switch-container">
+      <div class="boarder"></div>
+      <p>
+        Paragraph highlighted in
+        <span style="background-color: red; padding: 0 3px">red</span><br />
+        indicates this view is MISINFORMATION,<br />
+        please ignore it.
+      </p>
+      <a href="http://localhost:3000/article" target="_blank">
+        <img src="pics/alert.png" alt="" title="Jump to the clarification article" class="container-image" />
+      </a>
+      </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
