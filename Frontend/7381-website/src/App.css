@@ -1,0 +1,340 @@
+/* Style of navigation.js */
+#navigation {
+  display: flex;
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+
+  background-color: #d0e8f2;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 12%;
+
+  height: 82px;
+}
+
+#navigation>#logo>#logo-picture {
+  height: 65px;
+}
+
+#navigation>ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+}
+
+#navigation>ul>li {
+  padding: 15px 20px;
+}
+
+#navigation>ul>li>a {
+  text-decoration: none;
+}
+
+#navigation>ul>li>a:link {
+  color: #1b262c;
+}
+
+#navigation>ul>li>a:visited {
+  color: #1b262c;
+}
+
+#navigation>ul>#signup {
+  background: #113164;
+  border-radius: 15px;
+}
+
+#navigation>ul>#signup>a {
+  text-decoration: none;
+  color: #F3F9FB;
+}
+
+#signup>a:link {
+  color: #F3F9FB;
+}
+
+/* End of navigation.js */
+/* style of home.js */
+#title>p {
+  width: 600px;
+  height: 82px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 170%;
+  color: #1A191E;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#title>#button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 20px;
+  width: 157px;
+  height: 71px;
+  background: #226597;
+  color: #F3F9FB;
+  border-radius: 20px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* style of signin.js */
+#signin-page {
+  background-color: lightblue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+#sign-form {
+  position: absolute;
+  width: 550px;
+  height: 630px;
+  left: 55%;
+  top: 8%;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+#sign-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px 25px 0px;
+}
+
+#sign-title>ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+#sign-title>ul>li {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#sign-title>ul>li>a {
+  text-decoration: none;
+  color: #000;
+}
+
+#sign-form>div {
+  padding: 0px;
+  gap: 38px;
+  margin-top: 4.5%;
+}
+
+#sign-form>div>.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sign-form>div>.user-info>input {
+  font-family: 'DM Sans', sans-serif;
+  width: 85%;
+  height: 30%;
+  margin: 3% 0%;
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0;
+  background-color: #f8f8f9;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  background-size: 45px;
+  text-indent: 70px;
+}
+
+#sign-form>div>.user-info>input::-webkit-input-placeholder {
+  color: #a7a9a8;
+}
+
+#sign-form>div>.user-info>.username {
+  background-image: url("../public/user-icon.png");
+
+}
+
+#sign-form>div>.user-info>.password {
+  background-image: url("../public/password-icon.png");
+}
+
+#sign-form>#sign-radio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 8% 0%;
+
+}
+
+#sign-form>#sign-radio>label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sign-form>#sign-radio>label>.identity {
+  margin: 5px;
+  color: #113164;
+}
+
+#sign-condition {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 85%;
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#sign-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+
+}
+
+#sign-btn>input {
+  margin: 4.5%;
+  padding: 14px 60px;
+  background-color: #226597;
+  border-radius: 45px;
+  border: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 25px;
+  color: #F3F9FB;
+  font-weight: bold;
+}
+
+/* style of signup.js */
+#signup-page {
+  background-color: lightblue;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+#signup-form {
+  position: absolute;
+  width: 550px;
+  height: 630px;
+  left: 55%;
+  top: 8%;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+}
+
+#signup-form>div>.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signup-form>div>.user-info>input {
+  font-family: 'DM Sans', sans-serif;
+  width: 85%;
+  margin: 2.5% 0%;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  border-width: 0;
+
+  background-color: #f8f8f9;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-origin: content-box;
+  background-size: 45px;
+  text-indent: 70px;
+}
+
+#signup-form>div>.user-info>input::-webkit-input-placeholder {
+  color: #a7a9a8;
+}
+
+#signup-form>div>.user-info>.username {
+  background-image: url("../public/user-icon.png");
+
+}
+
+#signup-form>div>.user-info>.password {
+  background-image: url("../public/password-icon.png");
+}
+
+#signup-form>div>.user-info>.email {}
+
+#signup-form>#sign-radio {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 8% 0%;
+  gap: 24px;
+}
+
+#signup-form>#sign-radio>label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signup-form>#sign-radio>label>.identity {
+  margin: 5px;
+  color: #113164;
+}
+
+
+#sign-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#sign-btn>input {
+  margin: 4.5%;
+  padding: 14px 60px;
+  background-color: #226597;
+  border-radius: 45px;
+  border: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 25px;
+  color: #F3F9FB;
+  font-weight: bold;
+}
